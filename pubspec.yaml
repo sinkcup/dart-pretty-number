@@ -1,10 +1,10 @@
-name: pretty_number
-description: Remove trailing 0 for Dart number string.
-version: 0.1.0
-repository: https://github.com/sinkcup/dart-pretty-number
+name: trim_zero
+description: Remove trailing 0 for Dart number string, gives you a pretty number or price.
+version: 1.0.0
+repository: https://github.com/sinkcup/dart-trim-zero
 
 environment:
-  sdk: '>=2.12.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dev_dependencies:
   lints: '>=2.0.0'

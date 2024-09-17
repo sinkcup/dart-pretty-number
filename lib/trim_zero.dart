@@ -1,5 +1,5 @@
-extension PrettyNumber on String {
-  String prettyNumber() {
+extension TrimZero on String {
+  String trimZero() {
     String tmp = this;
     if (!tmp.contains('.')) {
       return tmp;
